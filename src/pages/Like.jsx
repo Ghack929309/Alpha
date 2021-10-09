@@ -4,14 +4,13 @@ import LikeItem from "../components/LikeItem";
 import { TrashIcon } from "@heroicons/react/solid";
 
 const Like = () => {
-	const { likeItems, removeFromCart, price, emptyLike } =
-		useContext(PictureContext);
+	const { likeItems, removeFormLike, emptyLike } = useContext(PictureContext);
 
 	const favoriteItem = likeItems.map((item) => (
 		<LikeItem
 			key={item.id}
 			src={item}
-			removeFromCart={removeFromCart}
+			removeFormLike={removeFormLike}
 			Trash={TrashIcon}
 		/>
 	));

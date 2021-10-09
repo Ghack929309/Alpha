@@ -45,6 +45,11 @@ const Context = ({ children }) => {
 		const remove = cartItems?.filter((item) => item.id !== id);
 		setCartItems(remove);
 	};
+	// remove item from favorite
+	const removeFormLike = (id) => {
+		const remove = likeItems?.filter((item) => item.id !== id);
+		setLikeItems(remove);
+	};
 	// add Like item
 	const addLike = (newItem) => {
 		setLikeItems((prev) => [...prev, newItem]);
@@ -69,6 +74,7 @@ const Context = ({ children }) => {
 				Icon: HeartIcon,
 				addToCart,
 				removeFromCart,
+				removeFormLike,
 				addLike,
 				removeLike,
 				cartItems,
