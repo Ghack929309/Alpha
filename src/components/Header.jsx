@@ -6,7 +6,7 @@ import { PictureContext } from "../context/Context";
 const Header = ({ ShoppingFill, HeartFill }) => {
 	const { cartItems, likeItems } = useContext(PictureContext);
 	return (
-		<div className="flex bg-red-600 justify-between pr-4 pl-4 h-16 items-center text-white ">
+		<div className="  flex bg-red-600 justify-between pr-4 pl-4 h-16 items-center text-white ">
 			<Link to="/" className="text-2xl font-bold cursor-pointer">
 				Alpha Bank
 			</Link>

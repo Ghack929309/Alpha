@@ -11,13 +11,14 @@ const Context = ({ children }) => {
 	const url =
 		"https://api.unsplash.com/search/photos?query=office&client_id=U2FpiuL0JDWmByRIeERJbq5_y2o8r6Sa1XN7rfKMwTQ";
 	// fetching data from unsplash api
-	const fetchPhotos = async () => {
-		const pictures = await fetch(url);
-		const data = await pictures.json();
-		setPhotos(data.results);
-		return data.results;
-	};
+
 	useEffect(() => {
+		const fetchPhotos = async () => {
+			const pictures = await fetch(url);
+			const data = await pictures.json();
+			setPhotos(data.results);
+			return data.results;
+		};
 		fetchPhotos();
 	}, []);
 
