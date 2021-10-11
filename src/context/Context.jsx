@@ -8,8 +8,7 @@ const Context = ({ children }) => {
 	const [cartItems, setCartItems] = useState([]);
 	const [likeItems, setLikeItems] = useState([]);
 
-	const url =
-		"https://api.unsplash.com/search/photos?query=office&client_id=U2FpiuL0JDWmByRIeERJbq5_y2o8r6Sa1XN7rfKMwTQ";
+	const url = `https://api.unsplash.com/search/photos?query=office&client_id=U2FpiuL0JDWmByRIeERJbq5_y2o8r6Sa1XN7rfKMwTQ`;
 	// fetching data from unsplash api
 
 	useEffect(() => {
