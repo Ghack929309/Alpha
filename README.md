@@ -2,7 +2,8 @@
 
 ![Project Image](https://user-images.githubusercontent.com/83169565/136811357-32004fbd-2fc9-49e5-8823-c286b4595f60.gif)
 
-# Demo ()
+# Demo 
+- Website - [demo](https://priceless-goldwasser-84af09.netlify.app/)
 ---
 
 ## Описание
@@ -14,8 +15,6 @@
 - React
 - Tailwind css
 - unsplash API
-
-[Вернуться к началу](#read-me-template)
 
 ---
 
