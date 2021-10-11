@@ -1,9 +1,7 @@
-# Read Me Template
+# Project preview
 
 ![Project Image](https://user-images.githubusercontent.com/83169565/136811357-32004fbd-2fc9-49e5-8823-c286b4595f60.gif)
-/tbLB8bp)
 
-> This is a ReadMe template to help save you time and effort.
 
 ---
 
@@ -24,8 +22,9 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- React
+- Tailwind css
+- unsplash API
 
 [Back To The Top](#read-me-template)
 
@@ -35,13 +34,16 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Installation
 
+- npm install 
+
+### If any trouble after running npm install :
+
+- npm install @craco/craco --save
 
 
 #### API Reference
 
-```html
-    <p>dummy code</p>
-```
+- Unspsplash 
 [Back To The Top](#read-me-template)
 
 ---
