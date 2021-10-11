@@ -24,14 +24,14 @@ const Image = ({ img, photo }) => {
 			return (
 				<PlusCircleIcon
 					onClick={() => addToCart(photo)}
-					className="h-8 text-red-400 absolute top-0 right-0 mt-2 ml-2 "
+					className="h-8 text-red-400 absolute top-0 right-0 mt-4 mr-6 "
 				/>
 			);
 		} else if (selectedItems) {
 			return (
 				<ShoppingCartIcon
 					onClick={() => removeFromCart(photo.id)}
-					className="h-8 text-red-400 absolute top-0 right-0 mt-2 ml-2 "
+					className="h-8 text-red-400 absolute top-0 right-0 mt-4 mr-6 "
 				/>
 			);
 		}
@@ -42,14 +42,14 @@ const Image = ({ img, photo }) => {
 			return (
 				<Icon
 					onClick={() => addLike(photo)}
-					className="h-8 text-red-400 absolute top-0 left-0 mt-2 mr-2 "
+					className="h-8 text-red-400 absolute top-0 left-0 mt-4 ml-6 "
 				/>
 			);
 		} else if (selectedItems) {
 			return (
 				<HeartIcon
 					onClick={() => removeLike(photo.id)}
-					className="h-8 text-red-400 absolute top-0 left-0 mt-2 mr-2 "
+					className="h-8 text-red-400 absolute top-0 left-0 mt-4 ml-6 "
 				/>
 			);
 		}
